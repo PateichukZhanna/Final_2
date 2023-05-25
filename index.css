@@ -444,7 +444,8 @@ min-height: 560px;
 
 .Main_content_choise_divider1{
 position: absolute;
-width: 768px;
+width: 100%;
+max-width: 768px;
 height: 0px;
 right: 78px;
 top: 559px;
@@ -454,7 +455,8 @@ transform: rotate(-180deg);
 
 .Main_content_choise_divider2{
 position: absolute;
-width: 557.49px;
+width: 100%;
+max-width: 557.49px;
 height: 3.78px;
 right: -200px;
 top: 280px;
@@ -519,7 +521,7 @@ order: 0;
 width: 70px;
 height: 60px;
 margin-top: 10px;
-background: url(./Picture/real\ photo\ \(3\).png);
+background: url(./Picture/comments.png);
 }
 
 .Main_content_choise_blok2{
@@ -551,7 +553,7 @@ order: 0;
 width: 70px;
 height: 60px;
 margin-top: 10px;
-background: url(./Picture/easy\ paymont\ \(1\).png);
+background: url(./Picture/real\ photo\ \(3\).png);
 }
 
 .Main_content_choise_blok3{
@@ -614,7 +616,7 @@ order: 0;
 width: 70px;
 height: 60px;
 margin-top: 10px;
-background: url(./Picture/comments.png);
+background: url(./Picture/easy\ paymont\ \(1\).png);
 }
 
 .Main_content_choise_another{
@@ -850,8 +852,7 @@ box-sizing: border-box;
 display: flex;
 order: 0;
 flex-wrap: wrap;
-width: 100%;
-max-width: 941px;
+width: 941px;
 height: 100%;
 min-height: 397px;
 margin-left: 150px;
@@ -864,7 +865,7 @@ background-color: #FFFFFF;
 .Main_content_form_text1{
 display: flex;
 order: 1;
-width: 597px;
+width:597px;
 height: 37px;
 margin-left: 172px;
 margin-top: 71px;
@@ -878,6 +879,7 @@ color: rgba(89, 56, 37, 0.53);
 
 .Main_content_form_divider1{
 display: flex;
+flex-wrap: wrap;
 order: 2;
 width: 597.01px;
 height: 0px;
@@ -905,8 +907,10 @@ color: rgba(89, 56, 37, 0.53);
 
 .Main_content_form_divider2{
 display: flex;
+flex-wrap: wrap;
 order: 4;
-width: 597px;
+width: 100%;
+max-width: 597px;
 margin-left: 172px;
 margin-top: 10px;
 color: rgba(89, 56, 37, 0.53);
